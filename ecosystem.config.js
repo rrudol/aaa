@@ -19,7 +19,7 @@ module.exports = {
       user : 'ubuntu',
       host : 'ec2-3-120-98-206.eu-central-1.compute.amazonaws.com',
       ref  : 'origin/master',
-      repo : 'git@github.com:repo.git',
+      repo : 'https://github.com/rrudol/aaa.git',
       path : '/tmp/www/production',
       'post-deploy' : 'npm install && pm2 reload ecosystem.config.js --env production'
     }
